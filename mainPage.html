@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="mainPageStyle.css">
+    <script src="mainPageJS.js" defer></script>
+    <title>Rently</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav row">
+            <a class="logo__bg" href="mainPage.html">
+                <img class="logo" src="./img/Rently.nobg.png" alt="Logo">
+            </a>
+            <div class="list">
+                    <a href="ourCars.html" class="list__item" target="_blank">Our Cars</a>
+                    <a href="#history__section" class="list__item">About Us</a>
+                    <a href="contact.html" class="list__item" target="_blank">Contact Us</a>
+            </div>
+            <div class="list">
+                    <a href="login.html" class="list__item" target="_blank">Log In</a>
+                    <a href="signin.html" class="list__item" target="_blank">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SlideShow -->
+    <section class="slide__container">
+        <div class="slides">
+            <div class="slide">
+                <div class="text">
+                    <div class="pg">
+                        <p>Do You Want Comfort ?</p>
+                    </div>
+                    <div class="btn__bg">
+                        <button class="btn" >DISCOVER  &rarr;</button>
+                    </div>
+                </div>
+                <div class="img__bg">
+                    <img class="img" src="./img/Audi_Q3-removebg-preview.png" alt="Audi Q3">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="text">
+                    <div class="pg">
+                        <p>Maby You Prefer Reliability ?</p>
+                    </div>
+                    <div class="btn__bg">
+                        <button class="btn" >DISCOVER  &rarr;</button>
+                    </div>
+                </div>
+                <div class="img__bg">
+                    <img class="img" src="./img/Tesla_Model-3_img-removebg-preview.png" alt="Audi Q3">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="text">
+                    <div class="pg">
+                        <p>How About Adrenaline ?</p>
+                    </div>
+                    <div class="btn__bg">
+                        <button class="btn" >DISCOVER  &rarr;</button>
+                    </div>
+                </div>
+                <div class="img__bg">
+                    <img class="img" src="./img/BMW_M2-removebg-preview.png" alt="Audi Q3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favourites Section -->
+    <section class="favourites__container">
+        <div class="favourite__title row">
+            <h2>FAVOURITES FROM OUR COSTUMERS</h2>
+        </div>
+        <div class="favourites row">
+            <div class="favourite">
+                <div class="favourite__img__bg">
+                    <img class="favourite__img" src="./img/BMW M2 img.jfif" alt="Favourite Car 1">
+                </div>
+                <div class="favourite__text">
+                    <h3>BMW M2</h3>
+                    <p><b>Engine: </b> Intercooled Turbo</p>
+                    <p><b>HP: </b> 360 HP</p>
+                    <p><b>Transmition: </b> 6 Speed Manual</p>
+                    <p><b>Seating: </b> 4 Seater</p>
+                    <p><b>Price Per Day: </b> 80 EUR</p>
+                </div>
+                <div class="favourite__btn__bg">
+                    <button class="favourite__btn">RESERVE NOW</button>
+                </div>
+            </div>
+            <div class="favourite">
+                <div class="favourite__img__bg">
+                    <img class="favourite__img" src="./img/VW_Golf_img.jpg" alt="Favourite Car 2">
+                </div>
+                <div class="favourite__text">
+                    <h3>VW GOLF 6</h3>
+                    <p><b>Engine: </b> Turbocharged four-cylinder</p>
+                    <p><b>HP: </b> 170 HP</p>
+                    <p><b>Transmition: </b> 6 Speed Manual</p>
+                    <p><b>Seating: </b> 4 Seater</p>
+                    <p><b>Price Per Day: </b> 40 EUR</p>
+                </div>
+                <div class="favourite__btn__bg">
+                    <button class="favourite__btn">RESERVE NOW</button>
+                </div>
+            </div>
+            <div class="favourite">
+                <div class="favourite__img__bg">
+                    <img class="favourite__img" src="./img/Audi-A4-img.webp" alt="Favourite Car 3">
+                </div>
+                <div class="favourite__text">
+                    <h3>AUDI A4</h3>
+                    <p><b>Engine: </b> Turbocharged inline-four</p>
+                    <p><b>HP: </b> 190 HP</p>
+                    <p><b>Transmition: </b> 6 Speed Manual</p>
+                    <p><b>Seating: </b> 4 Seater</p>
+                    <p><b>Price Per Day: </b> 70 EUR</p>
+                </div>
+                <div class="favourite__btn__bg">
+                    <button class="favourite__btn">RESERVE NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info__section">
+        <div class="info__title row">
+            <h3>Find Your Car In One Of Our</h3>
+        </div>
+        <div class="info row">
+            <div class="info__item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height=100" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM4 12c0-.899.156-1.762.431-2.569L6 11l2 2v2l2 2 1 1v1.931C7.061 19.436 4 16.072 4 12zm14.33 4.873C17.677 16.347 16.687 16 16 16v-1a2 2 0 0 0-2-2h-4v-3a2 2 0 0 0 2-2V7h1a2 2 0 0 0 2-2v-.411C17.928 5.778 20 8.65 20 12a7.947 7.947 0 0 1-1.67 4.873z"></path></svg>
+                <h2>145+</h2>
+                <p>Countries</p>
+            </div>
+            <div class="info__item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.42 21.815a1.004 1.004 0 0 0 1.16 0C12.884 21.598 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.996c-.029 6.444 7.116 11.602 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.004.021 4.438-4.388 8.423-6 9.731-1.611-1.308-6.021-5.293-6-9.735 0-3.309 2.691-6 6-6z"></path><path d="M11 14h2v-3h3V9h-3V6h-2v3H8v2h3z"></path></svg>
+                <h2>10k+</h2>
+                <p>Locations</p>
+            </div>
+            <div class="info__item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><circle cx="6" cy="4" r="2"></circle><path d="M9 7H3a1 1 0 0 0-1 1v7h2v7h4v-7h2V8a1 1 0 0 0-1-1z"></path><circle cx="17" cy="4" r="2"></circle><path d="M20.21 7.73a1 1 0 0 0-1-.73h-4.5a1 1 0 0 0-1 .73L12 14h2l-1 4h2v4h4v-4h2l-1-4h2z"></path></svg>
+                <h2>500</h2>
+                <p>Partners</p>
+            </div>
+            <div class="info__item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M8 12c2.28 0 4-1.72 4-4s-1.72-4-4-4-4 1.72-4 4 1.72 4 4 4zm0-6c1.178 0 2 .822 2 2s-.822 2-2 2-2-.822-2-2 .822-2 2-2zm1 7H7c-2.757 0-5 2.243-5 5v1h2v-1c0-1.654 1.346-3 3-3h2c1.654 0 3 1.346 3 3v1h2v-1c0-2.757-2.243-5-5-5zm9.364-10.364L16.95 4.05C18.271 5.373 19 7.131 19 9s-.729 3.627-2.05 4.95l1.414 1.414C20.064 13.663 21 11.403 21 9s-.936-4.663-2.636-6.364z"></path><path d="M15.535 5.464 14.121 6.88C14.688 7.445 15 8.198 15 9s-.312 1.555-.879 2.12l1.414 1.416C16.479 11.592 17 10.337 17 9s-.521-2.592-1.465-3.536z"></path></svg>
+                <h2>17</h2>
+                <p>Languages</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sub To Email Section -->
+    <form class="email__section">
+        <div class="email row">
+            <h1>Subscribe to our Newsletter</h1>
+            <div class="email__email">
+                <input type="email" value="Email" onfocus="if (this.value == 'Email') {this.value=''}">
+            </div>
+            <div class="email__btn__bg">
+                <input type="submit">
+            </div>
+            <p>Be the first to know about our exclusive deals.</p>
+        </div>
+    </form>
+
+    <!-- History Section -->
+    <section id="history__section">
+        <div class="history row">
+            <div class="history__title">
+                <h2>Rently - Driving Excellence Since 2003</h2>
+            </div>
+            <div class="history__text">
+                <p>Founded in 2003, Rently revolutionized the car rental industry with its customer-centric approach. From its humble beginnings in Renville, the company embraced technology, allowing customers to easily book vehicles online. With a diverse fleet of cars, including eco-friendly options, Rently offers tailored rental packages for various needs. Today, Rently is a trusted name known for exceptional service, reliability, and competitive pricing. As they celebrate their 20th anniversary, Rently remains committed to innovation, making car rental effortless and enjoyable for all</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Policy Section -->
+    <section class="policy__section">
+        <div class="policy row">
+            <div class="copyright">
+                <h4>Copyright © 2023 Rently. All rights reserved.</h4>
+            </div>
+            <div class="policy__title">
+                <a href="tos.html" class="policy__item" target="_blank">Terms Of Service</a>
+                <p class="policy__item">|</p>
+                <a href="pp.html" class="policy__item" target="_blank">Privacy Policy</a>
+                <p class="policy__item">|</p>
+                <a href="ln.html" class="policy__item" target="_blank">Legal Notice</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

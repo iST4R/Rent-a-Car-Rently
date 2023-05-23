@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* #1A1C22 - BLACK
+#3D3A50 - GRAY
+#580EF6 - BLUE
+#F7F7F7 - WHITE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid blue; */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+
+.header{
+    background-color: #3D3A50;
+    color: #f7f7f7;
+    padding: .3em 0;
+    transition: .3s;
+}
+
+.header:hover{
+    background-color: #1A1C22;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.logo__bg{
+    height: 120px;
+    width: 160px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.list__item{
+    text-decoration: none;
+    color: #fff;
+}
+
+.list__item + .list__item{
+    margin-left: 2rem;    
+}
+
+.list__item:hover{
+    transform: translateY(-3px);
+}
+
+/* Filter Cars By Section Styling */
+
+.filter__section{
+    background: #FFF;
+    color: #000;
+    padding: 2rem 0;
+}
+
+.filter{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.filter__item{
+    font-weight: 600;
+}
+
+.filter__btn{
+    background-color: #fff;
+    color: #000;
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.filter__btn:hover{
+    transform: translateY(-1px);
+}
+
+.filter__content{
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    min-width: 200px;
+}
+
+.filter__content a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.filter__content a:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    transform: scale(1);
+}
+
+.show{
+    display: block;
+}
+
+/* Catalog For Cars Section Styling */
+
+.catalog__section{
+    background-color: #fff;
+    color: #000;
+    padding: 1em 0;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-height: 600px;
+    width: 30%;
+    border-radius: 10px;
+    border: 4px solid #000;
+    margin-bottom: 3rem;
+}
+
+.card__img--bg{
+    height: 280px;
+    border-top: 100px;
+}
+
+.card__img{
+    height: 100%;
+    width: 100%;
+}
+
+.card__text{
+    height: 220px;
+    margin: 1rem;
+    padding: 1.3rem;
+}
+
+.card__btn--bg{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card__btn{
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(35deg, blue, black);
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.card__btn:hover{
+    transform: scale(1.05);
+}
+
+
+/* Policy Section Styling */
+
+.policy__section{
+    background: #000;
+    color: #fff;
+    min-height: 100px;
+}
+
+.policy{
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    width: 30%;
+}
+
+.policy__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    list-style: none;
+    color: #FFF;
+}
+
+.policy__item{
+    font-weight: 100;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.policy__item + .policy__item{
+    margin-left: 1rem;
+}
